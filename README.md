@@ -1,4 +1,4 @@
-# calculator
+# Calculator
 
 ## Installation
 cd to project directory
