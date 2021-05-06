@@ -6,12 +6,22 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <form action="/" method="POST">  <!-- posts the data in the form to serve which our home route (/)-->
+        <form action="/calculator" method="POST">  <!-- posts the data in the form to serve which our home route (/)-->
             <h1>Calculator</h1>
             <input name="num1" type="text" placeholder="number 1 here">
             <input name="num2" type="text" placeholder="number 2 here">
             <button type="submit">Calculate</button>
         </form>
+
+        <!-- weather api -->
+        <form action="/weather" method="POST">
+            <h2>Country Weather Data</h2>
+            <label for="weatherfield">City</label>
+            <input  name ="weatherfield" type="text" placeholder="Type City Here">
+            <button type="submit">Search Weather Data</button>
+        
+        </form>
+
         
     </body>
 </html>
