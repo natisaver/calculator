@@ -6,7 +6,6 @@ Use the package manager [npm](https://nodejs.org/en/download/) to install module
 
 ```bash
 npm i express
-npm i https
 npm i -g nodemon
 ```
 
